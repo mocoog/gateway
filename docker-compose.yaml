@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  go:
+    build: ./
+    tty: true
+    stdin_open: true
+    volumes:
+      - .:/go/src/work
+    working_dir: /go/src/work
+    ports:
+      - 9881:9881
