@@ -9,4 +9,4 @@ RUN go mod tidy && \
     go install -v golang.org/x/tools/gopls@v0.7.3 && \
     go build ./...
 
-EXPOSE 8080
+EXPOSE 9881
